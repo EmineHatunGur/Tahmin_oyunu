@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess_number</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <section class="title__first">
+      <button class="btn btn__box">Again</button>
+       
+      
+      <p class="number__between">< Between 1 end 20 ></p>
+    </section>
+    <section class="section__second">
+      <p class="second__p">Guess My Number!</p>
+      <div class="second__box">
+        <svg class="second-nav__icon">
+          <use xlink:href="imgs/line.svg#substract"></use>
+        </svg>
+        <svg class="second-nav__icon">
+          <use xlink:href="imgs/line.svg#substract"></use>
+        </svg>
+        <svg class="second-nav__icon">
+          <use xlink:href="imgs/line.svg#substract"></use>
+        </svg>
+        <div class="number"> ?
+        </div>
+        <svg class="second-nav__icon">
+          <use xlink:href="imgs/line.svg#substract"></use>
+        </svg>
+        <svg class="second-nav__icon">
+          <use xlink:href="imgs/line.svg#substract"></use>
+        </svg>
+        <svg class="second-nav__icon">
+          <use xlink:href="imgs/line.svg#substract"></use>
+        </svg>
+      </div>
+    </section>
+    <section class="section__third">
+      <div class="section__third-left">
+        <input type="number" class="third-guess">  
+       <button class="btn btn__check">Check!</button> 
+      </div>
+      <div class="section__third-right">
+        <div class="third__right-box">
+          <p class="message">
+            Start guessing...
+          </p>
+          
+          <p class="third__score">
+            Score: <span class="score">20</span></p>
+          <p class="third__high">High Score: <span class="highscore ">0</span>
+        </p>
+      </div>
+    </section>
+    <script type="text/javascript" src="app.js"></script>
+    
+  </body>
+</html>
